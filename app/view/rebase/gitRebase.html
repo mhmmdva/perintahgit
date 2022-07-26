@@ -35,24 +35,33 @@
       </ul>
    </nav>
 
-   <h1>Perintah Rebase</h1>
-   <p>Rebase ini adalah suatu perintah untuk mensejajarkan branch lain dengan branch master,
-      dan fungsinya ini adalah untuk menghindari adanya Three-way atau conflict pada git
-      saat ingin melakukan push.
-   </p>
-   <p>jika ingin melakukan rebase ini, maka kita harus melihat terlebih dahulu pada graph
-      apakah branch yang sudah kita buat ingin kita lakukan rebase agar terjadinya fast-forward
-      untuk menghindari adanya conflict
-   </p>
-   <ul>
-      <li>git checkout (nama_branch_lain) </li>
-      <li>git rebase (nama_branch_master)</li>
-      <li>graph</li>
-      <li>git checkout (nama_branch_master)</li>
-      <li>git rebase (nama_branch_lain)</li>
-      <li>graph</li>
-      <li>git push -u origin master</li>
-   </ul>
+   <div class="gitBoxes">
+      <div class="container">
+         <div class="card">
+            <div class="cards-body">
+               <h1>Perintah Rebase</h1>
+               <p>Rebase ini adalah suatu perintah untuk mensejajarkan branch lain dengan branch master,
+                  dan fungsinya ini adalah untuk menghindari adanya Three-way atau conflict pada git
+                  saat ingin melakukan push.
+               </p>
+               <p>jika ingin melakukan rebase ini, maka kita harus melihat terlebih dahulu pada graph
+                  apakah branch yang sudah kita buat ingin kita lakukan rebase agar terjadinya fast-forward
+                  untuk menghindari adanya conflict
+               </p>
+               <ul>
+                  <li>git checkout (nama_branch_lain) </li>
+                  <li>git rebase (nama_branch_master)</li>
+                  <li>graph</li>
+                  <li>git checkout (nama_branch_master)</li>
+                  <li>git rebase (nama_branch_lain)</li>
+                  <li>graph</li>
+                  <li>git push -u origin master</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+
 
 
    <!-- Footer -->
